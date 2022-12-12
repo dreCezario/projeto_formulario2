@@ -1,0 +1,199 @@
+:root{
+    --color-primary: #c5a030;
+    --color-secundary: rgb(213, 216, 67);
+    --color-primary-light: #f5eee6;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+/*******
+HOME 1
+*********/
+
+.home {
+    position: relative;
+    background-size: cover;
+    background-image: url(./images/001_mffff.jpg);
+    height: 100vh; 
+    background-attachment: fixed;
+}
+
+/*******
+NAVBAR
+********/
+
+.navbar{
+    position: fixed;
+    top: 0;
+    background-color: var(--color-primary);
+    width: 100%;
+    height: 6vh;
+    list-style: none;
+    display: flex;
+}
+
+.div-icons{
+    display: flex;
+    margin-left: 20px;
+}
+
+.arrow-left-square{
+    background-color: var(--color-primary);
+    margin-top: 4px;
+    margin-left: 2px;
+}
+
+.arrow-right-square{
+    background-color: var(--color-primary);
+    margin-top: 4px;
+    margin-right: 2px;
+}
+
+.navbar > ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 101vh;
+}
+
+li > a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 20px;
+}
+
+li > a:hover{
+    border-bottom: 1px solid #72590e;;
+    background-color: var(--color-secundary);
+}
+
+
+.navbar-list{
+    list-style: none;
+    display: flex;
+    color: white;
+}
+
+
+/*****************
+HOME 2 AND FORM
+*****************/
+
+.home2 {
+    position: relative;
+    background-size: cover;
+    background-image: url(./images/001_m.jpg);
+    height: 100vh; 
+
+}
+
+
+.home2 .formCadastro {
+    background-color: rgb(214, 211, 211);
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 450px;
+    width: 350px;
+    margin-left: -175px;
+    margin-top: -170px;
+    border: 5px solid var(--color-secundary);
+    position: absolute;
+
+}
+
+.home2 .formCadastro > div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.inputForm {
+    margin-top: 5px;
+    width: 300px;
+    height: 25px;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+
+.selectForm {
+    margin-top: 5px;
+    width: 300px;
+    text-align: center;
+    height: 25px;
+}
+
+.button {
+    background-color: var(--color-primary); /* Green */
+    border: none;
+    border-radius: 5px;
+    color: black;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: var(--color-secundary);
+}
+
+.erro{
+    color: red;
+}
+
+.inputError{
+    border: 2px solid red;
+}
+
+/*****************
+SECTION 1 E 2 
+*****************/
+
+.div-section{
+    display: flex;
+}
+
+.first-section{
+    width: 50%;
+    margin-top: 8px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.break{
+    border-left: 3px solid var(--color-primary);
+    margin-right: 3px;
+}
+
+.second-section{
+    width: 50%;
+    margin-top: 8px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+/*****************
+FOOTER
+*****************/
+
+.footer{
+    background-color: var(--color-primary);
+    width: 100%vh;
+    height: 6vh;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    text-align: center;
+}
